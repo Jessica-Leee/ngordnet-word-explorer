@@ -1,6 +1,6 @@
 # Ngordnet Word Explorer
 
-Java coursework from **UC Berkeley CS 61B, Fall 2024**, combining Project 2A (NGrams) and Project 2B (WordNet) in one private archive.
+Java coursework from **UC Berkeley CS 61B, Fall 2024**, combining Project 2A (NGrams) and Project 2B (WordNet) in one course archive.
 
 | Module | Implemented behavior |
 | --- | --- |
@@ -61,8 +61,8 @@ The recovered 2A text handler has a known formatting issue when the selected wor
 
 The validation record is a snapshot from **October 14, 2026**. It establishes handler-level behavior, not browser/HTTP operation: the preparation sandbox denied binding port 4567. No application or tests were rerun for this documentation refresh.
 
-## Private coursework archive
+## Course source and sharing terms
 
-**Keep this repository private. Do not publish its solution code or share it with current or future students.** The [Fall 2024 course policy](https://fa24.datastructur.es/policies/#academic-misconduct) prohibits posting solutions online; the [setup guide](https://fa24.datastructur.es/labs/lab01/#git-and-remote-repos) specifically identifies public solution repositories as a violation. Private archiving does not grant permission for broader redistribution.
+The [Fall 2024 course policy](https://fa24.datastructur.es/policies/#academic-misconduct) prohibits posting solutions online; the [setup guide](https://fa24.datastructur.es/labs/lab01/#git-and-remote-repos) specifically identifies public solution repositories as a violation. Course materials retain their original attribution and applicable sharing restrictions. Repository visibility does not grant additional redistribution rights.
 
 This repository combines student implementations, supplied course material, small course data fixtures, and third-party front-end code. No blanket open-source license has been added. See [PROVENANCE.md](PROVENANCE.md).
