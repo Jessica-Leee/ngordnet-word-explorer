@@ -1,4 +1,4 @@
-# Ngordnet Word Explorer
+# Ngordnet Word Explorer — CS 61B
 
 Java coursework from **UC Berkeley CS 61B, Fall 2024**, combining Project 2A (NGrams) and Project 2B (WordNet) in one course archive.
 
