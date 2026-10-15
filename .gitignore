@@ -1,0 +1,18 @@
+# Build output and IDE/platform files
+/build/
+/lib/
+**/out/
+**/.idea/
+**/*.iml
+**/*.class
+**/.DS_Store
+**/__MACOSX/
+
+# Full course datasets are obtained separately. Small fixtures are included.
+**/data/ngrams/top_14377_words.csv
+**/data/ngrams/top_49887_words.csv
+**/data/ngrams/shorter_words_file.csv
+**/data/wordnet/synsets.txt
+**/data/wordnet/hyponyms.txt
+*.zip
+*.log
