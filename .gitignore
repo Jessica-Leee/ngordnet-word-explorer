@@ -16,3 +16,13 @@
 **/data/wordnet/hyponyms.txt
 *.zip
 *.log
+
+# Local editor settings and credentials; retain documented examples.
+.vscode/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+._*

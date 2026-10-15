@@ -9,6 +9,16 @@ Java coursework from **UC Berkeley CS 61B, Fall 2024**, combining Project 2A (NG
 
 The modules retain their original separate Java packages and source trees. Compile and run **one module at a time**; both define classes such as `main.Main` and `ngrams.NGramMap`. The browser interface, server framework, plotting support, and some tests originate from course scaffolding. Existing source attributions are preserved.
 
+## Repository map
+
+| Location | Purpose |
+| --- | --- |
+| [`proj2a/`](proj2a/), [`proj2b/`](proj2b/) | Separate source, browser assets, course tests, and small data fixtures. |
+| [`scripts/`](scripts/) | Build, run, and headless-check entry points. |
+| [`verification/`](verification/) | Small-data checks added during archive preparation. |
+| [Data guide](DATA.md) | Bundled fixtures, omitted full datasets, and external Java libraries. |
+| [Validation record](VALIDATION.md), [provenance](PROVENANCE.md) | What was checked, known limits, and source attribution. |
+
 ## Run locally
 
 Prerequisites: Bash, a JDK (verified with OpenJDK 23.0.1), and the CS 61B Fall 2024 `library-fa24` JAR directory. JARs are intentionally kept outside this repository. Use an existing local copy, or follow the [official Java-library setup instructions](https://fa24.datastructur.es/labs/lab01/#java-libraries). The official library repository is [Berkeley-CS61B/library-fa24](https://github.com/Berkeley-CS61B/library-fa24).
@@ -48,6 +58,8 @@ Enter `act`, or `occurrence, change`. This fixture's words have little overlap w
 The only change to copied application source is `proj2b/src/main/Main.java`: it now connects the existing `HyponymsHandler` to `/hyponyms`, uses the included EECS fixtures by default, and accepts optional data-file paths. The original graph, time-series, and ranking implementations are unchanged. Build scripts and verification checks were added for this archive. See [VALIDATION.md](VALIDATION.md) for the results and limits.
 
 The recovered 2A text handler has a known formatting issue when the selected word has no observations in the requested years. That legacy edge case is documented in the validation record and was left unchanged.
+
+The validation record is a snapshot from **October 14, 2026**. It establishes handler-level behavior, not browser/HTTP operation: the preparation sandbox denied binding port 4567. No application or tests were rerun for this documentation refresh.
 
 ## Private coursework archive
 
